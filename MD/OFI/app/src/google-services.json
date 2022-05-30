@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913025155519",
+    "project_id": "origin-food-indonesia",
+    "storage_bucket": "origin-food-indonesia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913025155519:android:c9b08c9bcce6606d3fe10a",
+        "android_client_info": {
+          "package_name": "com.projectbangkit.originfoodindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913025155519-nifjfl8t61vni83v2auodpjpuoafa7bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectbangkit.originfoodindonesia",
+            "certificate_hash": "b79a050bde984e503e211198df01a1451f8a6c28"
+          }
+        },
+        {
+          "client_id": "913025155519-npp5nmojgn0kfao21jh2qbir9i64evgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW4k5FRZ3ZBKzAYO4dbW111SaeiIE6w5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913025155519-npp5nmojgn0kfao21jh2qbir9i64evgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
