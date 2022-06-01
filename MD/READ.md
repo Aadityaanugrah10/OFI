@@ -1,1 +1,1 @@
-Lanjut Besok ya guys, mau turu dulu..:)
+Lanjut Besok ya guys, mau turu dulu :)
