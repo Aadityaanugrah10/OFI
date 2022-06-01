@@ -1,1 +1,1 @@
-HANYA UNTUK AWALAN YA GUYS BESOK LANJUT
+Lanjut Besok yan guys, mau turu dulu..:)
