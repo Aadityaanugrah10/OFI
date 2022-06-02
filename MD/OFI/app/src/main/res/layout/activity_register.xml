@@ -72,7 +72,7 @@
                 app:boxStrokeColor="#4E4A4A"
                 app:boxStrokeWidth="1dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-                android:hint="Rewrite password"
+                android:hint="Confirm password"
                 android:inputType="textPassword" />
 
             <Button
