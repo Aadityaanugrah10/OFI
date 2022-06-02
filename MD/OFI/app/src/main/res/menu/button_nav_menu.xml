@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"/>
+    <item android:title="Keranjang"
+        android:id="@+id/keranjang"
+        android:icon="@drawable/ic_shopping"/>
+    <item android:title="Riwayat"
+        android:id="@+id/riwayat"
+        android:icon="@drawable/ic_riwayat"/>
+    <item android:title="Akun"
+        android:id="@+id/akun"
+        android:icon="@drawable/ic_person"/>
+
+
+
+</menu>

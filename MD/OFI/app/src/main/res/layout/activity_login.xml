@@ -56,6 +56,11 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="15dp"
+                app:hintTextColor="#4E4A4A"
+                app:boxStrokeColor="#4E4A4A"
+                app:boxStrokeWidth="1dp"
+                app:endIconMode="password_toggle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:hint="Password"
                 android:inputType="textPassword" />
 

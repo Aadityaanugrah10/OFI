@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/from_round.xml" value="0.1975" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/gradin_color.xml" value="0.1975" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1975" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_search.xml" value="0.1975" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_main.xml" value="0.128" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_register.xml" value="0.152" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_reset_password.xml" value="0.23802083333333332" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/gradial_color.xml" value="0.19084315503173163" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/item_banding_banner.xml" value="0.4" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/navigaton.xml" value="0.264" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/menu/button_nav_menu.xml" value="0.195382642154767" />
         <entry key="..\:/mentahan/OFI/app/src/main/res/layout/activity_login.xml" value="0.23802083333333332" />
         <entry key="..\:/mentahan/OFI/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
       </map>
