@@ -7,8 +7,11 @@
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/gradin_color.xml" value="0.1975" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_home.xml" value="0.1115" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1975" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_logo_ofi.xml" value="0.1115" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_logo_ofi_merah.xml" value="0.1115" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/drawable/ic_search.xml" value="0.1975" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_akun.xml" value="0.16" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_google_sign_in.xml" value="0.195382642154767" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_keranjang.xml" value="0.195382642154767" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_main.xml" value="0.128" />
@@ -16,12 +19,15 @@
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_reset_password.xml" value="0.23802083333333332" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_riwayat.xml" value="0.1838392475416845" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
-        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/fragment_akun.xml" value="0.1838392475416845" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/category_layout.xml" value="0.19084315503173163" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/fragment_akun.xml" value="0.152" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/fragment_home.xml" value="0.195382642154767" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/fragment_keranjang.xml" value="0.1838392475416845" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/fragment_riwayat.xml" value="0.195382642154767" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/gradial_color.xml" value="0.19084315503173163" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/item_banding_banner.xml" value="0.4" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/item_recent.xml" value="0.19084315503173163" />
+        <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/item_trending_banner.xml" value="0.19084315503173163" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/layout/navigaton.xml" value="0.264" />
         <entry key="..\:/Dicoding/Github/OFI/MD/OFI/app/src/main/res/menu/button_nav_menu.xml" value="0.195382642154767" />
         <entry key="..\:/mentahan/OFI/app/src/main/res/layout/activity_login.xml" value="0.23802083333333332" />

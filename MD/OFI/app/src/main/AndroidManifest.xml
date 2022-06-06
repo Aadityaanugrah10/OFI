@@ -7,20 +7,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/loaga"
+        android:icon="@drawable/ic_logo_ofi"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/loaga"
+        android:roundIcon="@drawable/ic_logo_ofi"
         android:supportsRtl="true"
         android:theme="@style/Theme.OriginFoodIndonesia"
         tools:targetApi="31">
         <activity
-            android:name=".RiwayatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AkunActivity"
-            android:exported="false" />
-        <activity
-            android:name=".KeranjangActivity"
+            android:name=".GoogleSignInActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
