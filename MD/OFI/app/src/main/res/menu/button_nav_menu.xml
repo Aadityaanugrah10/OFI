@@ -4,12 +4,9 @@
     <item android:title="Home"
         android:id="@+id/home"
         android:icon="@drawable/ic_home"/>
-    <item android:title="Keranjang"
-        android:id="@+id/keranjang"
-        android:icon="@drawable/ic_shopping"/>
-    <item android:title="Riwayat"
-        android:id="@+id/riwayat"
-        android:icon="@drawable/ic_riwayat"/>
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
     <item android:title="Akun"
         android:id="@+id/akun"
         android:icon="@drawable/ic_person"/>
