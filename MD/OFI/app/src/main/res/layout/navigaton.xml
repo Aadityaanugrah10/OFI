@@ -18,7 +18,7 @@
         android:layout_weight="5"
         android:background="@drawable/from_round"
         android:drawableLeft="@drawable/ic_search"
-        android:hint="  Cari Tempat Makan Disini"
+        android:hint="  Cari Menu Makan Disini"
         android:textColorHint="@color/black"
         android:shadowColor="@color/black"
         android:padding="8dp"

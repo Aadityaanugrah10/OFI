@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="@drawable/sp"
     tools:context=".ui.user.AkunFragment">
 
 
@@ -24,8 +24,8 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="362dp"
-        android:backgroundTint="@color/transparan_red"
         android:scaleType="centerCrop"
+        android:background="@drawable/sp"
         android:src="@drawable/gradin_color"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +48,7 @@
         android:id="@+id/edt_name"
         android:layout_width="190dp"
         android:hint="          Atur Nama Anda"
-        android:paddingStart="20dp"
+        android:paddingStart="30dp"
         android:textColor="@color/white"
         android:textColorHint="@color/grey"
         android:textSize="11dp"

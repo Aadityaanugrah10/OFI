@@ -76,34 +76,34 @@ class HomeFragment : Fragment() {
     val arrayBaju: ArrayList<ModelProduk>get() {
         val arrMk = ArrayList<ModelProduk>()
         val produkMakanan1 = ModelProduk()
-        produkMakanan1.namaProduk = "Kungcen"
+        produkMakanan1.namaProduk = "Serabi"
         produkMakanan1.hargaProduk = "Rp. 100.000,-"
-        produkMakanan1.gambarProduk = R.drawable.food
+        produkMakanan1.gambarProduk = R.drawable.serabi
 
         val produkMakanan2 = ModelProduk()
-        produkMakanan2.namaProduk = "kungken2"
+        produkMakanan2.namaProduk = "Bika Ambon"
         produkMakanan2.hargaProduk = "Rp. 99.000,-"
-        produkMakanan2.gambarProduk = R.drawable.food
+        produkMakanan2.gambarProduk = R.drawable.bika_ambon
 
         val produkMakanan3 = ModelProduk()
-        produkMakanan3.namaProduk = "santai aja"
+        produkMakanan3.namaProduk = "Lumpia"
         produkMakanan3.hargaProduk = "Rp. 100.000,-"
-        produkMakanan3.gambarProduk = R.drawable.food
+        produkMakanan3.gambarProduk = R.drawable.lumpia
 
         val produkMakanan4 = ModelProduk()
-        produkMakanan4.namaProduk = "Metopen Joki aja"
+        produkMakanan4.namaProduk = "Pempek"
         produkMakanan4.hargaProduk = "Rp. 100.000,-"
-        produkMakanan4.gambarProduk = R.drawable.food
+        produkMakanan4.gambarProduk = R.drawable.pempek
 
         val produkMakanan5 = ModelProduk()
-        produkMakanan5.namaProduk = "Rm.Sabar"
+        produkMakanan5.namaProduk = "Rendang"
         produkMakanan5.hargaProduk = "Rp. 100.000,-"
-        produkMakanan5.gambarProduk = R.drawable.food
+        produkMakanan5.gambarProduk = R.drawable.rendang
 
         val produkMakanan6 = ModelProduk()
-        produkMakanan6.namaProduk = "RM.OTW"
+        produkMakanan6.namaProduk = "Ayam Betutu"
         produkMakanan6.hargaProduk = "Rp. 100.000,-"
-        produkMakanan6.gambarProduk = R.drawable.food
+        produkMakanan6.gambarProduk = R.drawable.ayam_betutu
 
         arrMk.add(produkMakanan1)
         arrMk.add(produkMakanan2)
@@ -119,31 +119,26 @@ class HomeFragment : Fragment() {
     val arrayBuku: ArrayList<ModelTempat>get() {
         val arrBuk = ArrayList<ModelTempat>()
         val produkTokoh4 = ModelTempat()
-        produkTokoh4.namaBuku = "Rm.Mumet"
+        produkTokoh4.namaBuku = "Soto Banjar"
         produkTokoh4.hargaBuku = "Rp. 100.000,-"
-        produkTokoh4.gambarBuku = R.drawable.food
+        produkTokoh4.gambarBuku = R.drawable.soto_banjar
 
         val produkTokoh3 = ModelTempat()
-        produkTokoh3.namaBuku = "Angkringan Mbak kong"
+        produkTokoh3.namaBuku = "Ayam Betutu"
         produkTokoh3.hargaBuku = "Rp. 100.000,-"
-        produkTokoh3.gambarBuku = R.drawable.food
+        produkTokoh3.gambarBuku = R.drawable.ayam_betutu
 
         val produkTokoh2 = ModelTempat()
-        produkTokoh2.namaBuku = "Burjo Ngantuk"
+        produkTokoh2.namaBuku = "Pempek"
         produkTokoh2.hargaBuku = "Rp. 100.000,-"
-        produkTokoh2.gambarBuku = R.drawable.food
+        produkTokoh2.gambarBuku = R.drawable.pempek
 
-        val produkTokoh1 = ModelTempat()
-        produkTokoh1.namaBuku = "Burjo Asih"
-        produkTokoh1.hargaBuku = "Rp. 100.000,-"
-        produkTokoh1.gambarBuku = R.drawable.food
 
 
 
         arrBuk.add(produkTokoh4)
         arrBuk.add(produkTokoh3)
         arrBuk.add(produkTokoh2)
-        arrBuk.add(produkTokoh1)
 
 
         return arrBuk

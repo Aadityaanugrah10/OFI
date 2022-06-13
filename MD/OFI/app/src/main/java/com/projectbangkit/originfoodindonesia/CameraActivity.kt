@@ -15,7 +15,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.projectbangkit.originfoodindonesia.databinding.ActivityCameraBinding
-import com.projectbangkit.originfoodindonesia.ml.MobilenetV110224Quant
+import com.projectbangkit.originfoodindonesia.ml.Ofi224
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
@@ -80,7 +80,7 @@ class CameraActivity : AppCompatActivity() {
 
         make_prediction.setOnClickListener(View.OnClickListener {
             var resized = Bitmap.createScaledBitmap(bitmap, 224, 224, true)
-            val model = MobilenetV110224Quant.newInstance(this)
+            val model = Ofi224.newInstance(this)
 
             var tbuffer = TensorImage.fromBitmap(resized)
             var byteBuffer = tbuffer.buffer

@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tempat Makan Populer"
+                    android:text="Menu Makanan Populer"
                     android:layout_marginHorizontal="10dp"
                     android:textColor="#FF0000"
                     android:textSize="16dp"
@@ -68,7 +68,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tempat Makan Terbaru"
+                    android:text="Menu Makanan Terbaru"
                     android:layout_marginHorizontal="10dp"
                     android:textColor="#FF0000"
                     android:textSize="16dp"
