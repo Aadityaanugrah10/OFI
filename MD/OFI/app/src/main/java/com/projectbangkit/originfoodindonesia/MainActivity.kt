@@ -1,14 +1,16 @@
 package com.projectbangkit.originfoodindonesia
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.ml.modeldownloader.CustomModelDownloadConditions
+import com.google.firebase.ml.modeldownloader.DownloadType
+import com.google.firebase.ml.modeldownloader.FirebaseModelDownloader
 import com.projectbangkit.originfoodindonesia.databinding.ActivityMainBinding
-import com.projectbangkit.originfoodindonesia.fragment.AkunFragment
-import com.projectbangkit.originfoodindonesia.fragment.HomeFragment
-import com.projectbangkit.originfoodindonesia.fragment.KeranjangFragment
-import com.projectbangkit.originfoodindonesia.fragment.RiwayatFragment
+import com.projectbangkit.originfoodindonesia.ui.user.AkunFragment
+import com.projectbangkit.originfoodindonesia.ui.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bottonNavView: BottomNavigationView
@@ -19,11 +21,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.hide()
-        bottonNavView = binding.bottonNav
+        bottonNavView = binding.bottomBarMenu
 
         val homeFragment = HomeFragment()
-        val keranjangFragment = KeranjangFragment()
-        val riwayatFragment = RiwayatFragment()
         val akunFragment = AkunFragment()
 
         setThatFragment(homeFragment)
@@ -33,18 +33,26 @@ class MainActivity : AppCompatActivity() {
                 R.id.home ->{
                     setThatFragment(homeFragment)
                 }
-                R.id.keranjang ->{
-                    setThatFragment(keranjangFragment)
-                }
-                R.id.riwayat ->{
-                    setThatFragment(riwayatFragment)
-                }
                 R.id.akun ->{
                     setThatFragment(akunFragment)
                 }
             }
             true
         }
+        binding.fabCamera.setOnClickListener {
+            val intent = Intent(this@MainActivity , CameraActivity::class.java)
+            startActivity(intent)
+        }
+        //val conditions = CustomModelDownloadConditions.Builder()
+           // .requireWifi()
+          //  .build()
+        //FirebaseModelDownloader.getInstance()
+          //  .getModel("ofi", DownloadType.LOCAL_MODEL, conditions)
+          //  .addOnCompleteListener {
+                // Download complete. Depending on your app, you could enable the ML
+                // feature, or switch from the local model to the remote model, etc.
+          //  }
+
     }
 
     private fun setThatFragment(fragment: Fragment) =

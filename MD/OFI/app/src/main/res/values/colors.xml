@@ -10,5 +10,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
     <color name="transparn">#00FF0000</color>
-    <color name="grey">#F6F0EE</color>
+    <color name="transparent">#80000000</color>
+    <color name="grey">#B9B7B6</color>
+    <color name="green">#38CF06</color>
+    <color name="bguser">#77818181</color>
+    <color name="transparan_red">#77FF0000</color>
 </resources>

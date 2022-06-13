@@ -3,24 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.projectbangkit.originfoodindonesia">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/loaga"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/loaga"
+        android:roundIcon="@mipmap/loaga_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OriginFoodIndonesia"
         tools:targetApi="31">
         <activity
-            android:name=".RiwayatActivity"
+            android:name=".UpdatePasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".AkunActivity"
+            android:name=".UpdateEmailActivity"
             android:exported="false" />
         <activity
-            android:name=".KeranjangActivity"
+            android:name=".DetailProdukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMakananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleSignInActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/red</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="text_24sp_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

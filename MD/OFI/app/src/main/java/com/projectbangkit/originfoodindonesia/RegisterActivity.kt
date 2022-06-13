@@ -56,8 +56,22 @@ class RegisterActivity : AppCompatActivity() {
                 binding.edtPasswordRegister.requestFocus()
                 return@setOnClickListener
             }
-
+            binding.btnRegister.setOnClickListener{
+                emailVerificaion()
+            }
+            emailVerificaion()
             RegisterFirebase(email, password)
+        }
+    }
+
+    private fun emailVerificaion() {
+        val user = auth.currentUser
+        user?.sendEmailVerification()?.addOnCompleteListener{
+            if (it.isSuccessful){
+                Toast.makeText(this, "Email Verifikasi Telah Dikirim", Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
